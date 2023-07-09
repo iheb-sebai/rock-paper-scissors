@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="icon-scissors.svg" type="image/icon type">
+  <link rel="stylesheet" href="style.css">
+  <title>Rock | Paper | Scissors</title>
+</head>
+<body>
+  <div class="score-bar rule-none">
+    <div class="img1 rule-none"><img id="img1" src="logo-bonus.svg"></div>
+    <div class="host-score rule-none">
+      <p2 class="score-text rule-none">host score</p2>
+      <p3 class="score-number host rule-none">0</p3>
+    </div>
+    <div class="right-score rule-none">
+      <p class="score-text your-score rule-none">your score</p>
+      <p1 class="score-number player rule-none">0</p1>
+    </div>
+  </div>
+  <div class="game-part">
+    <div class="game rule-none">
+    <img src="bg-pentagon.svg" id="triangle">
+    <div class="pick"><p10 class="pickk">pick</p10></div>
+    <div class="picked scissors" id="rgb(255,165,0)">
+      <img id="scissors" src="icon-scissors.svg">
+      <p11 class="hpicked">the house picked</p11>
+    </div>
+    <div class="game-2 rule-none">
+      <div class="picked spock" name="spock" id="rgb(0, 242, 255)"><img id="spock" src="icon-spock.svg"></div>
+      <div class="picked paper" id="rgb(30, 0, 255)"><img id="paper" src="icon-paper.svg" ></div>
+    </div>
+    <div class="game-3 rule-none">
+      <div class="picked lizard" id="rgb(170, 0, 255)"><img id="lizard" src="icon-lizard.svg" ></div>
+      <div class="picked rock" id="rgb(255, 0, 89)"><img id="rock" src="icon-rock.svg" ></div>
+    </div>
+    <div class="rule ruless"><img id="img3" class="ruless" src="icon-close.svg"><img  id="img2" class="ruless" src="image-rules-bonus.svg"></div>
+  </div>
+     <div class="bottomm rule-none"> 
+      <input class="play_game rule-none" value="Start" type="button">
+      <input class="play_again hidden rule-none" value="Play again" type="button"> 
+      <button class="next hidden rule-none">next</button>
+        <div class="rules rule-none">
+          <p3 id="rules-text" class="ruless">rules</p3>
+        </div>
+      </div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
